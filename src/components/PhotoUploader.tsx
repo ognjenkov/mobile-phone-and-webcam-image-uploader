@@ -130,6 +130,7 @@ const PhotoUploader: React.FC = () => {
             type="file"
             accept="image/*"
             onChange={handleFileChange}
+            capture="environment"
             ref={fileInputRef}
             className="hidden"
           />
