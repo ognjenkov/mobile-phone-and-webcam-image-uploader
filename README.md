@@ -12,6 +12,8 @@ windows defender firewall
 -> allow the connection and click next
 name the rule
 
+you will now be able to access the applciation on your phone
+
 now go back to your application folder and run
 ```bash
 npm run dev -- --host
